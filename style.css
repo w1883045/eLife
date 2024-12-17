@@ -51,11 +51,14 @@ header p {
 .hamburger .bar {
     width: 35px;
     height: 5px;
-    background-color: black;
+    background-color: #000;
     margin: 6px 0;
     transition: 0.4s;
 }
 
+.hamburger:hover .bar {
+    background-color: #fff;
+}
 
 nav {
     background-color: #038408;
