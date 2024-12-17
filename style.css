@@ -61,37 +61,42 @@ header p {
 }
 
 nav {
-    background-color: #038408;
+    background-color: light rgba(63, 63, 63, 0.77);
     padding: 10px 0;
     position: fixed;
     top: 0;
-    left: 0;
-    width: 100%;
-    display: none;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    transition: left 0,3s ease-in-out;
     z-index: 99;
 }
 
 nav.active {
-    display: block;
+    left: 0;
 }
 
 
 nav ul {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     list-style: none;
+    margin-top: 50px;
 }
 
 nav ul li {
-    margin: 0 20px;
+    margin: 20px 0;
 }
 
 nav ul li a {
     text-decoration: none;
     color: white;
     font-size: 1.2em;
+    padding: 10px 20px;
+    display: block;
 }
 
 nav ul li a:hover {
     color: black;
+    background-color: aquamarine;
 }
