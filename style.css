@@ -61,7 +61,7 @@ header p {
 }
 
 nav {
-    background-color: light rgba(63, 63, 63, 0.77);
+    background-color: #808080;
     padding: 10px 0;
     position: fixed;
     top: 0;
@@ -90,13 +90,13 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: white;
+    color: black;
     font-size: 1.2em;
     padding: 10px 20px;
     display: block;
 }
 
 nav ul li a:hover {
-    color: black;
+    color: ghostwhite;
     background-color: aquamarine;
 }
