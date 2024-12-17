@@ -61,7 +61,7 @@ header p {
 }
 
 nav {
-    background-color: light grey;
+    background-color: grey;
     padding: 10px 0;
     position: fixed;
     top: 0;
@@ -97,5 +97,5 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: rgba(4, 161, 4, 0.978);
+    color: lightgreen;
 }
