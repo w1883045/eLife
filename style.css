@@ -40,7 +40,7 @@ header p {
 }
 
 .hamburger {
-    display: none;
+    display: block;
     cursor: pointer;
     position: absolute;
     top: 20px;
@@ -55,7 +55,6 @@ header p {
     margin: 6px 0;
     transition: 0.4s;
 }
-
 
 
 nav {
