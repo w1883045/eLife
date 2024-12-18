@@ -15,6 +15,18 @@ body {
     margin: 0 auto;
 }
 
+.logo {
+    width: 100px;
+    height: auto;
+    float: left;
+    margin-right: 20px;
+}
+
+.header-text {
+    display: inline-block;
+    vertical-align: middle;
+}
+
 header {
     background-color: aquamarine;
     color: black;
