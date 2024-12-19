@@ -11,17 +11,20 @@ body {
 }
 
 .container {
+    position: relative;
     width: 80%;
     margin: 0 auto;
 }
 
 .logo {
     position: fixed;
-    top: 10px;
-    right: 10px;
+    top: 0;
+    right: 0;
     width: 100px;
     height: auto;
     z-index: 200;
+    margin: 0;
+    padding: 0;
 }
 
 .header-text {
