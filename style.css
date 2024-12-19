@@ -13,6 +13,7 @@ body {
 .container {
     width: 80%;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .logo {
@@ -25,6 +26,7 @@ body {
 .header-text {
     display: inline-block;
     vertical-align: middle;
+    width: calc(100% - 120px);
 }
 
 header {
