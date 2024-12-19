@@ -18,8 +18,8 @@ body {
 .logo {
     width: 100px;
     height: auto;
-    float: left;
-    margin-right: 20px;
+    float: right;
+    margin: 10px;
 }
 
 .header-text {
