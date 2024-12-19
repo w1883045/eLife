@@ -123,6 +123,7 @@ nav ul li a:hover {
     align-items: center;
     gap: 40px;
     margin-top: 50px;
+    padding: 20px;
 }
 
 .clickable-item {
@@ -134,7 +135,6 @@ nav ul li a:hover {
     display: block;
     position: relative;
     width: 100%;
-    max-width: 1200px;
     margin: 0 auto;
     cursor: pointer;
 }
@@ -147,7 +147,7 @@ nav ul li a:hover {
 
 .clickable-image:hover {
     transform: scale(1.02);
-    opacity: 1.2;
+    opacity: 0.9;
 }
 
 .image-text {
