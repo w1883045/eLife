@@ -128,18 +128,19 @@ nav ul li a:hover {
 .clickable-item {
     text-align: center;
     width: 100%;
-    margin-bottom: 50px;
 }
 
 .clickable-container {
-    display: inline-block;
+    display: block;
     position: relative;
     width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
     cursor: pointer;
 }
 
 .clickable-image {
-    width: 250px;
+    width: 100%;
     height: auto;
     transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
 }
@@ -151,8 +152,8 @@ nav ul li a:hover {
 
 .image-text {
     margin-top: 20px;
-    font-size: 2em;
-    font-weight: 700;
+    font-size: 1.5em;
+    font-weight: 600;
     color: #333;
     font-family: 'Lora', serif;
 }
