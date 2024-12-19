@@ -16,9 +16,9 @@ body {
 }
 
 .logo {
+    float: right;
     width: 100px;
     height: auto;
-    float: right;
     margin: 10px;
 }
 
