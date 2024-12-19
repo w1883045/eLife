@@ -22,12 +22,11 @@ body {
     right: 10px;
     width: 100px;
     height: auto;
-    margin: 10px;
 }
 
 .header-text {
-    display: inline-block;
-    vertical-align: middle;
+    margin-right: 120px;
+    text-align: left;
 }
 
 header {
