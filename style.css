@@ -11,21 +11,21 @@ body {
 }
 
 .container {
-    position: relative;
     width: 80%;
     margin: 0 auto;
 }
 
 .logo {
-    position: absolute;
+    position: fixed;
     top: 10px;
     right: 10px;
     width: 100px;
     height: auto;
+    z-index: 200;
 }
 
 .header-text {
-    margin-right: 120px;
+    margin-right: 140px;
     text-align: left;
 }
 
