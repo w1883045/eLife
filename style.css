@@ -11,13 +11,15 @@ body {
 }
 
 .container {
+    position: relative;
     width: 80%;
     margin: 0 auto;
-    overflow: hidden;
 }
 
 .logo {
-    float: right;
+    position: absolute;
+    top: 10px;
+    right: 10px;
     width: 100px;
     height: auto;
     margin: 10px;
@@ -26,7 +28,6 @@ body {
 .header-text {
     display: inline-block;
     vertical-align: middle;
-    width: calc(100% - 120px);
 }
 
 header {
