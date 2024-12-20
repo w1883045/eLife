@@ -4,10 +4,11 @@
     box-sizing: border-box;
 }
 
-body {
+html, body {
     font-family: 'Lora', serif;
     background-color: white;
     color: black;
+    overflow: hidden;
 }
 
 .container {
