@@ -177,11 +177,11 @@ nav ul li a:hover {
 }
 
 .image-text .small-text {
-    font-size: 0.9em;
-    color: #555;
+    font-size: 0.6em;
+    color: #777777;
     margin-top: 10px;
 }
 
 .pollution-image {
-    max-width: 500px;
+    max-width: 400px;
 }
