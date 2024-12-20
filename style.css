@@ -146,9 +146,9 @@ nav ul li a:hover {
 }
 
 .clickable-image {
-    width: 70%;
-    max-width: 400px;
-    height: 300px;
+    width: 90%;
+    max-width: 800px;
+    height: auto;
     object-fit: cover;
     transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
 }
