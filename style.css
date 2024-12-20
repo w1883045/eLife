@@ -18,13 +18,12 @@ body {
 
 .logo {
     position: fixed;
-    top: 0;
-    right: 0;
+    top: 10px;
+    right: 10px;
     width: 200px;
     height: auto;
     z-index: 200;
-    margin: 0;
-    padding: 0;
+    pointer-events: none;
 }
 
 .header-text {
@@ -175,4 +174,8 @@ nav ul li a:hover {
     font-weight: normal;
     line-height: 1.5;
     color: #555;
+}
+
+.pollution-image {
+    max-width: 500px;
 }
