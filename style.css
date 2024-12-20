@@ -174,7 +174,7 @@ nav ul li a:hover {
     font-size: 1.2em;
     font-weight: normal;
     line-height: 1.5;
-    color: #555;
+    color: #202020;
 }
 
 .image-text .small-text {
@@ -184,5 +184,5 @@ nav ul li a:hover {
 }
 
 .pollution-image {
-    max-width: 400px;
+    max-width: 200px;
 }
