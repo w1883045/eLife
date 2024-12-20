@@ -164,11 +164,9 @@ nav ul li a:hover {
     font-family: 'Lora', serif;
 }
 
-.image-text strong {
-    font-size: 1.8em;
+.image-text .title {
+    font-size: 2em;
     font-weight: bold;
-    display: block;
-    margin-bottom: 10px;
     color: #000;
 }
 
