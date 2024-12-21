@@ -55,8 +55,8 @@ header {
 }
 
 .background-video {
-    width: 80vw;
-    height: 50vw;
+    width: 90vw;
+    height: 60vw;
     object-fit: cover;
     border-radius: 10px;
 }
