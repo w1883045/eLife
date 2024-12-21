@@ -44,6 +44,9 @@ header {
 }
 
 .video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 80%;
     height: 80vh;
     overflow: hidden;
