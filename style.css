@@ -24,8 +24,8 @@ body {
 
 .logo {
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 5px;
+    right: 5px;
     width: 200px;
     height: auto;
 }
@@ -55,8 +55,8 @@ header {
 }
 
 .background-video {
-    width: 40vw;
-    height: 40vw;
+    width: 80vw;
+    height: 50vw;
     object-fit: cover;
     border-radius: 10px;
 }
