@@ -40,7 +40,7 @@ header {
     text-align: left;
     width: 100%;
     padding: 80px;
-    background-color: white;
+    background-color: rgb(74, 224, 174);
     position: relative;
     z-index: 1;
 }
