@@ -47,15 +47,15 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 100vh;
+    width: 80%;
+    height: 80vh;
     overflow: hidden;
     position: relative;
     margin-top: 20px;
 }
 
 .background-video {
-    width: 60vw;
+    width: 80vw;
     height: 60vw;
     object-fit: cover;
     border-radius: 10px;
