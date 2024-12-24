@@ -58,9 +58,13 @@ header {
 }
 
 .background-video {
-    width: 100vw;
-    height: 100vw;
-    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    height: 100vh;
+    object-fit: contain;
 }
 
 header h1 {
