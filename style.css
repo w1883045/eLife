@@ -18,8 +18,8 @@ body {
 
 .logo {
     position: absolute;
-    top: 5px;
-    right: 5px;
+    top: 20px;
+    right: 20px;
     width: 200px;
     height: auto;
     z-index: 2;
@@ -89,12 +89,11 @@ header h1 {
 
 header h2 {
     font-size: 2em;
-    margin: 10px 0;
+    margin-top: 10px;
+    margin-bottom: 0;
+    display: inline;
 }
 
-header p {
-    font-size: 1.8em;
-}
 
 .hamburger {
     display: block;
