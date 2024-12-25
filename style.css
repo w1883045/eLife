@@ -48,6 +48,8 @@ header {
     height: 60vh;
     position: relative;
     overflow: hidden;
+    margin-top: 0;
+    background-color: black;
     
 }
 
@@ -58,8 +60,6 @@ header {
     transform: translate(-50%, -50%);
     min-width: 100%;
     min-height: 100%;
-    width: auto;
-    height: auto;
     object-fit: cover;
 }
 
