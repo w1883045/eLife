@@ -13,6 +13,7 @@ body {
 .container {
     position: relative;
     z-index: 1;
+    color: white;
 }
 
 .logo {
@@ -88,6 +89,7 @@ header h1 {
 
 header h2 {
     font-size: 2em;
+    margin: 10px 0;
 }
 
 header p {
