@@ -95,8 +95,9 @@ header h2 {
 }
 
 .main-content {
-    padding: 20px;
-    text-align: center;
+    padding-left: 20px;
+    text-align: left;
+
 }
 
 .sub-text {
