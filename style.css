@@ -95,15 +95,15 @@ header h2 {
 }
 
 .main-content {
-    padding-left: 20px;
+    padding-left: 10px;
     text-align: left;
 
 }
 
 .sub-text {
-    font-size: 2em;
+    font-size: 3em;
     line-height: 1.6;
-    color: #04422b;
+    color: #076c47;
 }
 
 .main-content p {
