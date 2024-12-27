@@ -232,6 +232,7 @@ nav ul li a:hover {
     opacity: 0.9;
 }
 
+/*text for the clickable images*/
 .image-text {
     margin-top: 20px;
     font-size: 1.5em;
@@ -257,4 +258,23 @@ nav ul li a:hover {
     font-size: 0.6em;
     color: #777777;
     margin-top: 10px;
+}
+
+/* back to top button */
+#backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 2em;
+    background-color: #474646;
+    border-radius: 50%;
+    padding: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    display: none;
+    z-index: 1000;
+}
+
+#backToTop:hover {
+    background-color: #777777;
 }
