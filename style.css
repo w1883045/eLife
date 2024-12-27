@@ -109,8 +109,8 @@ header h2 {
 
 }
 
-.main-content p {
-    font-size: 1em;
+.main-content p:not(.sub-text) {
+    font-size: 1.4em;
     max-width: 800px;
     margin: 0 auto;
 }
