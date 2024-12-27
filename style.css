@@ -97,7 +97,7 @@ header h2 {
 
 
 .main-content {
-    padding-left: 10px;
+    padding-left: 20px;
     text-align: left;
     line-height: 1.6;
     font-family: 'Arial', sans-serif;
@@ -111,7 +111,7 @@ header h2 {
     font-family: 'Arial', sans-serif;
     line-height: 1.2;
     color: green;
-    margin-top: 40px;
+    margin-top: 60px;
     margin-bottom: 20px;
 
 }
