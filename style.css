@@ -106,7 +106,7 @@ header h2 {
 .sub-text {
     font-size: 3em;
     font-weight: bold;
-    font-style: 'Arial', sans-serif;
+    font-family: 'Arial', sans-serif;
     line-height: 1.2;
     color: green;
     margin-top: 40px;
@@ -123,7 +123,7 @@ header h2 {
 
 .main-content p.sub-text {
     margin: 0 auto;
-    font-style: 'Arial', sans-serif;
+    font-family: 'Arial', sans-serif;
     font-size: 3em;
     color: green;
 }
