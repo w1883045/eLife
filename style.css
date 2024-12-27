@@ -95,7 +95,7 @@ header h2 {
 }
 
 .main-content {
-    padding-left: 20px;
+    padding-left: 10px;
     text-align: left;
     line-height: 1.6;
 
@@ -120,6 +120,7 @@ header h2 {
 .main-content p.sub-text {
     margin: 0 auto;
     font-size: 3em;
+    color: #076c47;
 }
 
 .hamburger {
