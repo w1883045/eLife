@@ -265,7 +265,7 @@ nav ul li a:hover {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    font-size: 3em;
+    font-size: 2em;
     background-color: #717171;
     border-radius: 50%;
     padding: 15px;
@@ -282,5 +282,5 @@ nav ul li a:hover {
 }
 
 #backToTop {
-    transition: opacity 0.3s ease;
+    transition: opacity 0.5s ease;
 }
