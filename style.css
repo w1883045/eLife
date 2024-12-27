@@ -107,21 +107,21 @@ header h2 {
     font-size: 3em;
     font-weight: bold;
     line-height: 1.2;
-    color: #076c47;
+    color: green;
 
 }
 
 .main-content p {
-    font-size: 1.2em;
+    font-size: 1.5em;
     max-width: 800px;
     margin: 0 auto;
-    line-height: 1.6;
+    line-height: 1.2;
 }
 
 .main-content p.sub-text {
     margin: 0 auto;
     font-size: 3em;
-    color: #076c47;
+    color: green;
 }
 
 
