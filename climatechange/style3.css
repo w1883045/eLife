@@ -114,10 +114,11 @@ nav ul li a:hover {
 }
 
 
+
 .climate-info {
     padding: 20px;
     background-color: white;
-    text-align: left;
+    text-align: center;
 }
 
 .climate-info h2 {
@@ -127,7 +128,7 @@ nav ul li a:hover {
 
 .climate-info p {
     font-size: 1.1em;
-    color: #555;
+    color: black;
 }
 
 
