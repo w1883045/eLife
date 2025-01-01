@@ -11,6 +11,10 @@ body {
     padding-bottom: 80px;
 }
 
+.page-wrapper {
+    flex: 1;
+}
+
 .container {
     position: relative;
     z-index: 1;
