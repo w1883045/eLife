@@ -196,8 +196,8 @@ nav ul li a:hover {
 }
 
 .centered-image img {
-    width: 200px;
-    height: 200px;
+    width: 600px;
+    height: 600px;
     object-fit: cover;
     border: 2px solid #04422b;
     border-radius: 10px;
