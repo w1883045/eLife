@@ -119,6 +119,7 @@ nav ul li a:hover {
     padding: 40px 20px;
     background-color: #fff;
     text-align: center;
+    max-width: 800px;
 }
 
 .climate-info h2 {
@@ -145,7 +146,13 @@ nav ul li a:hover {
 .gray-box h3 {
     font-size: 2em;
     margin-bottom: 20px;
-    color: green;
+    color: #39e039;
+}
+
+.gray-box h2 {
+    font-size: 1.6em;
+    margin-bottom: 20px;
+    color: darkgreen;
 }
 
 .gray-box ul {
