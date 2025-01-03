@@ -116,7 +116,7 @@ nav ul li a:hover {
 
 
 .climate-info {
-    padding: 20px;
+    padding: 40px 20px;
     background-color: #fff;
     text-align: center;
 }
@@ -133,10 +133,10 @@ nav ul li a:hover {
 
 .gray-box {
     background-color: #bcbcbc;
-    padding: 20px;
-    margin: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin: 20px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
     max-width: 900px;
     text-align: left;
     color: #000;
@@ -144,20 +144,25 @@ nav ul li a:hover {
 
 .gray-box h3 {
     font-size: 2em;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     color: green;
 }
 
+.gray-box ul {
+    padding-left: 20px;
+}
+
 .gray-box ul li {
-    margin-bottom: 10px;
-    font-size: 1em;
+    margin-bottom: 15px;
+    font-size: 1.2em;
     line-height: 1.6;
 }
 
 .gray-box p {
     margin-top: 20px;
-    font-size: 1em;
-    line-height: 1.6;
+    font-size: 1.2em;
+    line-height: 1.8;
+    text-align: left;
 }
 
 
