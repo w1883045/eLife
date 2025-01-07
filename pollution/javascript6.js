@@ -21,3 +21,17 @@ backToTopButton.onclick = function () {
         behavior: "smooth"
     });
 };
+
+document.addEventListener("DOMContentLoaded", function () {
+    const popup = document.getElementById("scrollPopup");
+
+    if (popup) {
+        popup.classList.add("show");
+
+        setTimeout(() => {
+            popup.classList.remove("show");
+        }, 3000);
+    }else {
+        console.error("Popup element not found!");
+    }
+});
