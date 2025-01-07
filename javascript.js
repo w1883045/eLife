@@ -26,11 +26,13 @@ backToTopButton.onclick = function () {
 document.addEventListener("DOMContentLoaded", function () {
     const popup = document.getElementById("scrollPopup");
 
-    //Show popup instantly
-    popup.classList.add("show");
+    if (popup) {
+        popup.classList.add("show");
 
-    //hide popup after 5 seconds
-    setTimeout(() => {
-        popup.classList.remove("show");
-    }, 5000);
+        setTimeout(() => {
+            popup.classList.remove("show");
+        }, 5000);
+    }else {
+        console.error("Popup element not found!");
+    }
 });
