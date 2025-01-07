@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         setTimeout(() => {
             popup.classList.remove("show");
-        }, 5000);
+        }, 3000);
     }else {
         console.error("Popup element not found!");
     }
