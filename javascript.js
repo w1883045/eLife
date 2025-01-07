@@ -24,13 +24,13 @@ backToTopButton.onclick = function () {
 };
 
 document.addEventListener("DOMContentLoaded", function () {
-    const popup = this.document.getElementById("scrollPopup");
+    const popup = document.getElementById("scrollPopup");
 
     //Show popup instantly
     popup.classList.add("show");
 
     //hide popup after 5 seconds
-    this.setTimeout(() => {
+    setTimeout(() => {
         popup.classList.remove("show");
     }, 5000);
 });
