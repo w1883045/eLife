@@ -22,18 +22,16 @@ backToTopButton.onclick = function () {
     });
 };
 
-window.addEventListener("scroll", function () {
-    const popup = this.document.getElementById("scrollPopup");
-    const targetHeading = this.document.querySelector("h2");
+document.addEventListener("DOMContentLoaded", function () {
+    const popup = document.getElementById("scrollPopup");
 
-    if (targetHeading) {
-        const rect = targetHeading.getBoundingClientRect();
-        const isVisible = rect.top < window.innerHeight && rect.bottom >= 0;
+    if (popup) {
+        popup.classList.add("show");
 
-        if (isVisible) {
-            popup.classList.add("show");
-        } else {
+        setTimeout(() => {
             popup.classList.remove("show");
-        }
+        }, 3000);
+    }else {
+        console.error("Popup element not found!");
     }
 });
