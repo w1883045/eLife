@@ -21,3 +21,19 @@ backToTopButton.onclick = function () {
         behavior: "smooth"
     });
 };
+
+window.addEventListener("scroll", function () {
+    const popup = this.document.getElementById("scrollPopup");
+    const targetHeading = this.document.querySelector("h2");
+
+    if (targetHeading) {
+        const rect = targetHeading.getBoundingClientRect();
+        const isVisible = rect.top < window.innerHeight && rect.bottom >= 0;
+
+        if (isVisible) {
+            popup.classList.add("show");
+        } else {
+            popup.classList.remove("show");
+        }
+    }
+});
