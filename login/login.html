@@ -8,6 +8,37 @@
     <script src="https://kit.fontawesome.com/fed90c7cca.js" crossorigin="anonymous"></script>
 </head>
 <body>
+
+
+    <div class="video-wrapper">
+        <video autoplay loop muted playsinline class="background-video">
+            <source src="videos/eLifevid.mp4" type="video/mp4">
+        </video>
+        <div class="overlay"></div>
+    </div>
+
+
+    <div class="hamburger" onclick="toggleNav()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+
+    <img src="images/eLife-logo.png" alt="eLife Logo" class="logo">
+
+    <nav id="navbar">
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#solutions">Environmental Solutions</a></li>
+                <li><a href="#survey">Surveys</a></li>
+                <li><a href="#quiz">Quizzes</a></li>
+
+            </ul>
+        </div>
+    </nav>
+
+
     <div class="login-container">
         <h2>Login</h2>
         <form id="loginForm">

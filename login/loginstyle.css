@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 body {
     font-family: Arial, sans-serif;
     background-color: green;
@@ -8,6 +15,109 @@ body {
     align-items: center;
     height: 100vh;
 }
+
+.video-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.background-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    height: 50px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+
+.hamburger {
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 100;
+}
+
+.hamburger .bar {
+    width: 35px;
+    height: 5px;
+    background-color: #000;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.hamburger:hover .bar {
+    background-color: #fff;
+}
+
+nav {
+    background-color: rgba(128,128,128,0.7);
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    transition: left 0.3s ease-in-out;
+    z-index: 99;
+}
+
+nav.active {
+    left: 0;
+}
+
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-top: 50px;
+}
+
+nav ul li {
+    margin: 20px 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    display: block;
+}
+
+nav ul li a:hover {
+    color: #04422b;
+}
+
+
+
+
+
+
+
 
 .login-container {
     background: #fff;
