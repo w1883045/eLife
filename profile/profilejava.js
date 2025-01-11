@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const content = reportContent.value.trim();
 
         if (title && content) {
-            const report = JSON.parse(localStorage.getItem("reports")) || [];
+            const reports = JSON.parse(localStorage.getItem("reports")) || [];
             reports.push({ author: loggedInUser, title, content });
             localStorage.setItem("reports", JSON.stringify(reports));
 
@@ -36,6 +36,6 @@ document.addEventListener("DOMContentLoaded", () => {
     //Handle logout
     logoutBtn.addEventListener("click", () => {
         localStorage.removeItem("loggedInUser");
-        window.location.href = "/eLife/login./login.html";
+        window.location.href = "/eLife/login/login.html";
     });
 });
