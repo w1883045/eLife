@@ -8,10 +8,9 @@ document.addEventListener("DOMContentLoaded", () => {
     loginForm.addEventListener("submit", (e) => {
         e.preventDefault();
 
-        const username = usernameField.value.trim();
-        const password = passwordField.value.trim();
+        const username = usernameField.value;
 
-        if (username && password) {
+        if (username && passwordField.value) {
             localStorage.setItem("loggedInUser", username);
             window.location.href = "/eLife/profile/profile.html";
         } else {
