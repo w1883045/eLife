@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (username) {
             localStorage.setItem("loggedInUser", username);
 
-            window.location.href = "/profile/profile.html";
+            window.location.href = "eLife/profile/profile.html";
         } else {
             alert("Invalid login credentials. Please Try Again.");
         }
