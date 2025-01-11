@@ -8,11 +8,11 @@ document.addEventListener("DOMContentLoaded", () => {
     loginForm.addEventListener("submit", (e) => {
         e.preventDefault();
 
-        const username = usernameField.value;
+        const username = usernameField.value.trim();
+        const password = passwordField.value.trim();
 
-        if (username && passwordField.value) {
+        if (username && password) {
             localStorage.setItem("loggedInUser", username);
-
             window.location.href = "/eLife/profile/profile.html";
         } else {
             alert("Invalid login credentials. Please Try Again.");

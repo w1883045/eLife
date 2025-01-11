@@ -176,21 +176,21 @@ button:hover {
 
 .password-container input {
     flex: 1;
-    padding-right: 40px;
 }
 
 .toggle-password {
     background: none;
     border: none;
+    cursor: pointer;
     position: absolute;
     right: 10px;
-    cursor: pointer;
+    top: 50%;
+    transform: translate(-50%);
+    padding: 0;
+    color: #555;
     font-size: 1.2rem;
-    color: #666;
-    outline: none;
 }
 
-.toggle-password:focus,
 .toggle-password:hover {
     color: #333;
 }
