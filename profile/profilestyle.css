@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #04422b;
+    color: #fff;
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+
+.logo {
+    height: 50px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+
+
+/*Content*/
+.content {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+#dashboard h1 {
+    margin-bottom: 1rem;
+}
+
+#write-report .form-group {
+    margin-bottom: 1rem;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+
+input, textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+button {
+    background-color: green;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #04422b;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
