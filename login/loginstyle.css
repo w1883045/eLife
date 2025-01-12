@@ -120,7 +120,7 @@ nav ul li a:hover {
 
 
 .login-container {
-    max-width: 500px;
+    max-width: 700px;
     margin: 100px auto;
     background: rgba(255, 255, 255, 0.9);
     padding: 2rem;
@@ -130,9 +130,8 @@ nav ul li a:hover {
 }
 
 h2 {
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     text-align: left;
-    font-size: 1.5rem;
 }
 
 .form-group {
@@ -193,7 +192,7 @@ button:hover {
     cursor: pointer;
     position: absolute;
     right: 10px;
-    top: 50%;
+    top: 45%;
     transform: translate(-50%);
     padding: 0;
     color: #555;
