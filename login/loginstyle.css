@@ -120,11 +120,11 @@ nav ul li a:hover {
 
 
 .login-container {
-    max-width: 400px;
+    max-width: 500px;
     margin: 100px auto;
     background: rgba(255, 255, 255, 0.9);
     padding: 2rem;
-    border-radius: 8px;
+    border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     text-align: center;
 }
@@ -132,10 +132,11 @@ nav ul li a:hover {
 h2 {
     margin-bottom: 1rem;
     text-align: left;
+    font-size: 1.5rem;
 }
 
 .form-group {
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     text-align: left;
 }
 
@@ -201,7 +202,12 @@ button:hover {
     align-items: center;
     justify-content: center;
     height: auto;
-    width: 30px;
+    width: auto;
+}
+
+
+.toggle-password:active {
+    font-size: 1rem;
 }
 
 
