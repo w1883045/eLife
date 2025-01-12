@@ -190,9 +190,6 @@ button:hover {
     background: none;
     border: none;
     cursor: pointer;
-    position: absolute;
-    right: 10px;
-    top: 30%;
     padding: 0 10px;
     color: #555;
     font-size: 1.2rem;
@@ -202,10 +199,6 @@ button:hover {
     height: 100%;
 }
 
-
-.toggle-password:active {
-    font-size: 1rem;
-}
 
 
 .toggle-password:hover {
