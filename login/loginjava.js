@@ -22,9 +22,10 @@ document.addEventListener("DOMContentLoaded", () => {
     togglePassword.addEventListener("click", () => {
         const isPasswordHidden = passwordField.getAttribute("type") === "password";
         passwordField.setAttribute("type", isPasswordHidden ? "text" : "password");
-        togglePassword.innerHTML = isPasswordHidden
-            ? '<i class="fa-solid fa-eye-slash"></i>'
-            : '<i class="fa-solid fa-eye"></i>';
+        
+        const icon = togglePassword.querySelector("i");
+        icon.classList.toggle("fa-eye");
+        icon.classList.toggle("fa-eye-slash");
     });
 });
 
