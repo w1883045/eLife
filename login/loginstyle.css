@@ -191,11 +191,12 @@ button:hover {
 
 .toggle-password {
     background: none;
-    border: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
     cursor: pointer;
-    position: absolute;
+    position: relative;
     right: 10px;
-    top: 50%;
+    top: 70%;
     transform: translate(-50%);
     color: #555;
     font-size: 1.2rem;
@@ -211,4 +212,5 @@ button:hover {
 
 .toggle-password:hover {
     color: #333;
+    border-color: #333;
 }
