@@ -194,12 +194,12 @@ button:hover {
     border: none;
     cursor: pointer;
     position: absolute;
-    right: 10px;
-    top: 40%;
+    right: 5px;
+    top: 60%;
     transform: translate(-50%);
     color: #555;
     font-size: 1.5rem;
-    padding: 0.2rem;
+    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
