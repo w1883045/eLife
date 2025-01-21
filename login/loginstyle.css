@@ -180,6 +180,8 @@ button:hover {
 
 .password-container input {
     flex: 1;
+    width: 100%;
+    max-width: 500px;
     padding: 0.75rem;
     border: 1px solid #ccc;
     border-radius: 4px;
