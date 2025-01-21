@@ -39,25 +39,56 @@
     </nav>
 
 
-    <div class="login-container">
-        <h2>Login</h2>
-        <form id="loginForm">
-            <div class="form-group">
-                <label for="username">Username</label>
-                <input type="text" id="username" name="username" required>
-            </div>
-            <div class="form-group">
-                <label for="password">Password</label>
-                <div class="password-container">
-                    <input type="password" id="password" name="password" required>
-                    <button type="button" id="togglePassword" class="toggle-password" aria-label="Show/Hide Password">
-                         <i class="fa-solid fa-eye"></i>
-                    </button>
+    <div class="auth-container">
+        <!--Login form-->
+        <div class="form" id="loginForm">
+            <h2>Login</h2>
+            <form method="POST" action="login.php">
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" required>
                 </div>
-            </div>
-            <button type="submit" id="loginBtn">Login</button>
-        </form>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <div class="password-container">
+                        <input type="password" id="password" name="password" required>
+                        <button type="button" id="togglePassword" class="toggle-password" aria-label="Show/Hide Password">
+                            <i class="fa-solid fa-eye"></i>
+                        </button>
+                    </div>
+                </div>
+                <button type="submit" id="loginBtn">Login</button>
+            </form>
+            <p>Dont have an account? <a href="#" id="showSignup">Sign up</a></p>
+        </div>
+
+        <!--Signup Form-->
+        <div class="form" id="signupForm" style="display: none;">
+            <h2>Sign Up</h2>
+            <form method="POST" action="signup.php">
+                <div class="form-group">
+                    <label for="signupUsername">Username</label>
+                    <input type="text" id="signupUsername" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="signupEmail">Email</label>
+                    <input type="email" id="signupEmail" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="signupPassword">Password</label>
+                    <div class="password-container">
+                        <input type="password" id="signupPassword" name="password" required>
+                        <button type="button" id="toggleSignupPassword" class="toggle-password" aria-label="Show/Hide Password">
+                            <i class="fa-solid fa-eye"></i>
+                        </button>
+                    </div>
+                </div>
+                <button type="submit" id="signupBtn">Sign Up</button>
+            </form>
+            <p>Already have an account? <a href="#" id="showLogin">Log In</a></p>
+        </div>
     </div>
+
 
 
 
