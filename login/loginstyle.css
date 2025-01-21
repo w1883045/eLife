@@ -194,8 +194,8 @@ button:hover {
     border: none;
     cursor: pointer;
     position: absolute;
-    right: 5px;
-    top: 60%;
+    right: 20px;
+    top: 50%;
     transform: translate(-50%);
     color: #555;
     font-size: 1.5rem;
