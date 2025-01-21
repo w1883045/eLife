@@ -175,7 +175,6 @@ button:hover {
     display: flex;
     align-items: center;
     width: 100%;
-    margin-top: 0.5rem;
 }
 
 .password-container input {
@@ -191,19 +190,18 @@ button:hover {
     background: none;
     border: none;
     cursor: pointer;
-    position: absolute;
-    right: 10px;
-    top: 50%;
-    transform: translate(-50%);
+    margin-left: 0.5rem;
     color: #555;
     font-size: 1.5rem;
-    padding: 0;
-    height: 100%;
-    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
 }
 
 .toggle-password i {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     line-height: 1;
 }
 
